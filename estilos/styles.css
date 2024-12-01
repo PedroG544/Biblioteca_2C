@@ -1,0 +1,153 @@
+body{
+    background-color: blue;
+    align-items: center;
+    height: 95vh;
+    margin-top: 50px;
+}
+#fundo {
+    display: flex;
+    background-color: silver;
+    justify-content: center;
+    text-align: center;
+    
+}
+.titulo {
+    text-align: center;
+}
+.azul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 800px;
+    background-color: #DAFDBA;
+    align-items: center;
+    border-radius: 6px;
+}
+.azul h1{
+    font-family: cursive;
+    color: #012030;
+    font-weight: bolder;
+}
+
+.vermelha{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    background-color: #13678A;
+    gap: 5px;
+    padding: 5px;  
+    border-radius: 5px;  
+}
+.amarelo1{
+    display: flex;
+    background-color: #9AEBA3;
+    width: 100%;
+    height: 30px;
+
+}
+.amarelo1 p {
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: auto;
+    margin-left: 5px;
+}
+.amarelo2{
+    display: flex;
+    background-color: #9AEBA3;
+    height: auto;
+    padding: 5px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    justify-content: space-evenly;
+}
+.roxo{
+    display:  flex;
+    background-color: #45C4B0;
+    width: 200px;
+    min-width: 200px;
+    height: 250px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline;
+    padding-top: 3px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.roxo img {
+    height: 80%;
+    
+}
+.roxo p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Página do livro  */
+
+.verde {
+    display: flex;
+    width: 45%;
+    height: 70%;
+    background-color: #9AEBA3;
+    padding: 5px; 
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.verde img {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width:400px;
+    max-height:300px;
+}
+
+.rosa {
+    width: 30%;
+    height: 70%;
+    background-color: #45C4B0;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.rosa h1, .rosa p {
+    text-align: justify;
+}
+
+button {
+    background-color: #DAFDBA;
+    border-radius: 5px;
+    border: 0px;
+    width: 70%;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #9AEBA3;
+    color: white;
+}
+
+.conteudo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+.conteudo p{
+    text-align: justify;
+    text-indent: 1.5em;
+}

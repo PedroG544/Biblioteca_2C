@@ -1,0 +1,36 @@
+body {
+    background-color:#12375b;  
+    color:#12375b;  
+    ;  
+    
+    margin-top: 50px;
+}
+.conteudo{
+    display:flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin-top: 250px;
+}
+.conteudo img{
+    height: 250px;
+    width: 455px;
+    border: rgb(221, 216, 216) solid;
+    border-radius: 15px;
+    box-shadow: 25px 20px 10px #00000014;
+}
+.conteudo button{
+    flex-direction: column;
+    text-align: left;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+}
+
+   

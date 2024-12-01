@@ -1,0 +1,122 @@
+table {
+    max-width: 100%;
+    border-collapse: collapse;
+    background-color: #e8eef1;
+    border: 2px solid #30475e;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color:#12375b;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.desc {
+    overflow-y: auto;
+    max-height: 50px;
+}
+
+tbody td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #d8e4ea;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #cbd6df;
+}
+
+.botao-editar,
+.botao-excluir {
+    padding: 8px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+.botao-editar {
+    background-color: #5078A0;
+}
+
+.botao-editar:hover {
+    background-color: #2d3747;
+}
+
+.botao-excluir {
+    background-color: #5078A0;
+}
+
+.botao-excluir:hover {
+    background-color: #2d3747;
+}
+
+.fundo-maior{
+    display: flex;
+    justify-content: center;
+}
+
+#fundo a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#fundo { 
+    text-align:center;
+    margin-top: 250px;
+    width: 90%;
+
+}
+
+.table-scroll{
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    max-height: 100px;
+    overflow-y: auto;
+    padding-right: 15px;
+
+   
+   
+}
+
+.table-row{
+    height: 20px;
+    background-color: blue;
+}
+
+.botao-editar {
+    background-color: #FCCD2A;
+}
+
+.botao-editar:hover {
+    background-color: #2d3747;
+}
+
+.botao-excluir {
+    background-color: #FF4545;
+}
+
+.botao-excluir:hover {
+    background-color: #2d3747;
+}
+.botoes-alterar{
+    display:flex;
+    gap: 5px;
+}
+

@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    background-color: #12375b;
+    margin-top: 50px;
+}
+.fundo {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.vermelho{
+    display: flex;
+    width: 70%;
+    height: 550px;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+    margin-top: 150px;
+}
+
+.azul {
+    display: flex;
+    background-color: rgb(218, 218, 219);;
+    border-radius: 20px;
+    width: 47%;
+    height: auto;
+   
+}
+
+.azul img {
+    margin: auto;
+    width: 300px;
+    min-width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.roxo {
+    display: flex;
+    width: 49%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.verde {
+    width: 100%;
+    height: 50%;
+    text-align: justify;
+}
+
+.amarelo {
+    display: flex;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    
+    
+}
+
+.titulo-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 15px;
+     gap: 5px;
+   background-color:   rgb(218, 218, 219);
+   border-radius: 20px; 
+}
+.rosa{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.amarelo p {
+    margin: auto;
+    text-transform: uppercase;
+    padding: 5px;
+   color: rgb(151, 255, 65);
+}
+
+.ciano .botao{
+    display: flex;
+    justify-content: center;
+    background-color: #5078A0;
+    border-radius: 10px;
+   
+    margin: auto;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 252, 252);
+    transition: 1s;
+    cursor: pointer;
+    align-items: center;
+    background-color: #6EC207;
+  
+    
+}
+
+.ciano .botao:hover {
+    background-color: #9ba7b9;
+    transition: 1s;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+
+}

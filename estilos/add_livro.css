@@ -1,0 +1,33 @@
+body {
+    background-color: blue;
+    margin-top: 50px;
+}
+.pai-fundo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.fundo{
+    background-color: #12375b;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 40%;
+    margin-top: 250px;
+    color: white;
+}
+
+.fundo img{
+    width: 200px;
+}
+
+.btn-salvar{
+    text-align: center;
+}
+
+.btn-salvar input{
+    background-color: #6EC207;
+    width: 100px;
+}
